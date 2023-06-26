@@ -6,7 +6,7 @@ const {
   MessageType, 
   MessageOptions, 
   Mimetype
-} = require("@adiwajshing/baileys");
+} = require("@whiskeysockets/baileys");
 const logger = require("pino")({ level: "silent" });
 const { Boom } = require("@hapi/boom");
 require('dotenv').config()
